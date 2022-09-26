@@ -39,3 +39,9 @@ self-contained features.
 
 # Docs
 Docs are in doc folder
+# Viewing docs
+An easy way to run an HTTP server locally is to use the dhttpd package. For example:
+
+$ dart pub global activate dhttpd
+$ dhttpd --path doc/api
+Navigate to http://localhost:8080 in your browser; the search function should now work.
